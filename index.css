@@ -124,6 +124,7 @@ justify-content: center;
 }
 .section-2-images{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .section-2-images img{
@@ -364,12 +365,12 @@ margin: 50px;
     margin-right: 90px;
 }
 .section-6-images img{
-    width: 190px;
+    width: 180px;
     height: 200px;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 .section-6-input{
-    
+    display: flex;
    margin-left: 250px;
     margin-bottom: 60px;
 }
@@ -463,7 +464,7 @@ text-align: left;
     }
     .navbar{
 
-        display: block ruby;
+        display: flex;
     }
     .nav-branding{
       display: block;          
@@ -530,10 +531,16 @@ text-align: left;
             align-items: center;
             justify-content: center;
             }
+            
          .imag{
+
+            align-items: center;
+            justify-content: center; 
+         }
+         .imag img{
             width: 300px;
             height: 400px;
-            margin-left: 10px;
+        
          }
          .section-2{
             margin: 0 !important;
@@ -541,7 +548,8 @@ text-align: left;
          }
          .section-2-images{
             display: flex;
-            justify-content: left;
+            align-items: center;
+            justify-content: center;
          }
          .section-2-images img{
             width: 60px;
@@ -550,11 +558,13 @@ text-align: left;
             margin: 0;
             padding: 0;
             display: grid;
-            width: 10px;
+           margin-left: 10px;
+            
+           
         }
         .section-2-images2 img{
             width: 300px;
-            margin-left: 10px;
+          
         }
         .section-2-images4{
             display: grid;
@@ -563,7 +573,7 @@ text-align: left;
             margin-bottom: 20px;
             height: 300px !important;
             width: 300px !important;
-            margin-left: 10px;
+            
 
         }
         .section-2-images5{
@@ -576,23 +586,26 @@ text-align: left;
             margin: 0;
             margin-bottom: 20px;
             height: 290px !important;
-            margin-left: 10px;
+            
             
         }
         .section-2-images5 img{
             margin: 0;
             margin-bottom: 20px;
             height: 290px !important;
-            margin-left: 10px;
+           
         }
         .section-3{
             margin: 0;
             padding: 0;
+            display: grid;
+            align-items: center;
+            justify-content: center;
         }
         .section-3 h2{
             text-align: left;
             font-size: 20px;
-            margin-left: 10px;
+            
         }
         .section-3-span{
             display: flex;
@@ -600,7 +613,7 @@ text-align: left;
         }
         .section-3-span span h4{
             font-size: 15px;
-            margin-left: 5px;
+            
         }
         .section-3-span button{
             display: none;
@@ -613,12 +626,12 @@ text-align: left;
             
         }
         .section-3-images-1 img{
-            width: 300px !important;
-            margin-left: 10px;
+            width: 290px !important;
+            
         }
         .section-3-images-1 h3{
             font-size: 20px;
-            margin-left: 10px;
+            
         }
         .section-4{
             margin: 0;
@@ -627,8 +640,7 @@ text-align: left;
             text-align: left;
         }
         .section-4{
-            background-image: url(images/image26.png);
-            width: 320px;
+        
           display: grid;
            
             
@@ -656,11 +668,15 @@ text-align: left;
         .section-5{
             margin: 0;
             padding: 0;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
         }
         .section-5 h2{
             text-align: left;
             font-size: 20px;
-            margin-left: 10px;
+            
         }
         .section-5-span{
             display: flex;
@@ -668,7 +684,6 @@ text-align: left;
         }
         .section-5-span span h4{
             font-size: 15px;
-            margin-left: 5px;
         }
         .section-5-span button{
             display: none;
@@ -682,11 +697,11 @@ text-align: left;
         }
         .section-5-images-1 img{
             width: 300px !important;
-            margin-left: 10px;
+           
         }
         .section-5-images-1 h3{
             font-size: 20px;
-            margin-left: 10px;
+            
         }
         /* .section-6{
             padding: 0;
@@ -711,6 +726,7 @@ text-align: left;
             display: grid;
             margin: 0 !important;
             padding: 0 !important;
+            padding: 10px !important;
         }
         .section-6 h2{
         font-family: Roboto;
@@ -727,7 +743,7 @@ text-align: left;
             padding: 0 !important;
         }
         .section-6-images img{
-            width: 300px;
+            width: 290px;
             height: 300px;
             margin-top: 20px;
            
