@@ -465,6 +465,7 @@ text-align: left;
     .navbar{
 
         display: flex;
+        justify-content: space-between;
     }
     .nav-branding{
       display: block;          
@@ -540,6 +541,7 @@ text-align: left;
          .imag img{
             width: 300px;
             height: 400px;
+            margin-left: 10px;
         
          }
          .section-2{
@@ -726,7 +728,7 @@ text-align: left;
             display: grid;
             margin: 0 !important;
             padding: 0 !important;
-            padding: 10px !important;
+            padding: 15px !important;
         }
         .section-6 h2{
         font-family: Roboto;
@@ -741,9 +743,11 @@ text-align: left;
             display: grid;
              margin: 0 !important;
             padding: 0 !important;
+            align-items: center;
+            justify-content: center;
         }
         .section-6-images img{
-            width: 290px;
+            width: 280px;
             height: 300px;
             margin-top: 20px;
            
