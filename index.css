@@ -490,7 +490,7 @@ text-align: left;
             top: 70px;
             gap: 0;
             flex-direction: column;
-            background-color: #262626;
+            background-color: #fff;
             width: 100%;
             text-align: left;
            transition: 0.3s;
